@@ -27,7 +27,7 @@ body{
     transition: 0.5s;
 }
 
-.navigation ul{
+navigation ul{
     position: absolute;
     top: 0;
     left: 0;
@@ -75,21 +75,87 @@ body{
 }
     
 
-
-.navigation ul li:hover a {
-    color: #4594e1;
-}
-
-
-
-
-    
-
 .navigation ul li a .title{
     position: relative;
     display: block;
     padding: 0 10px;
+}
+
+.main{
+    position: absolute;
+    left: 300px;
+    width: calc(100% -300px);
+    min-height: 100vh;
+    transition: 0.5s;
+    background: #fff;
+}
+
+.topbar{
+    width: 100%;
     height: 60px;
-    text-align: start;
-    white-space: nowrap;
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.bx-menu{
+    color: #4594E1;
+}
+
+.bx-library{
+    color:#4594E1;
+}
+
+.students{
+    background-color:#4594E1; 
+    color: #fff; 
+    width: 180px; 
+    height: 40px;
+    border-radius:10px; 
+    margin: auto;
+    border: none;
+    outline: none;
+    object-fit: contain;
+   
+}
+
+.cardbox{
+    display: flex;
+    gap: 1.8rem;
+    margin-left: 2rem;
+    
+}
+
+.card{
+    box-shadow: 0px 34.867px 46.4894px rgba(212, 217, 232, 0.2);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+  
+section:nth-of-type(2) div:nth-of-type(2) div:nth-child(2) i.bx-book-content{
+    color:#4594E1;
+}
+
+section:nth-of-type(2) div:nth-of-type(3) div:nth-child(1) i.bx-certification{
+    color:#4594E1;
+}
+
+section:nth-of-type(2) div:nth-of-type(3) div:nth-child(2) i.bxs-graduation{
+    color: #4594E1;
+}
+
+.cardbox2{
+    display: flex;
+    gap: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.quiz{
+    box-shadow: 0px 34.867px 46.4894px rgba(212, 217, 232, 0.2);
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
 }
