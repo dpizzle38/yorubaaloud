@@ -109,10 +109,12 @@ navigation ul{
 .students{
     background-color:#4594E1; 
     color: #fff; 
-    width: 180px; 
-    height: 40px;
+    width: 150px; 
+    height: 30px;
     border-radius:10px; 
-    margin: auto;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top: 10px;
     border: none;
     outline: none;
     object-fit: contain;
@@ -153,9 +155,10 @@ section:nth-of-type(2) div:nth-of-type(3) div:nth-child(2) i.bxs-graduation{
 }
 
 .quiz{
-    box-shadow: 0px 34.867px 46.4894px rgba(212, 217, 232, 0.2);
+    box-shadow: 0px 34.867px 100px rgba(212, 217, 232, 0.2);
     width: 200px;
     height: 100px;
     margin: auto;
     border-radius: 10px;
+    padding-top: 1.3rem;
 }
