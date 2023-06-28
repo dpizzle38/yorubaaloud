@@ -81,19 +81,19 @@
         <div class="card">
           <i class='bx bx-library'></i>
           <h4>Total Categories</h4>
-          <span>2</span>
+          <span id="category">2</span>
         </div>
 
         <div class="card">
           <i class="bx bx-book-content"></i>
           <h4>Learning Materials</h4>
-          <span>12</span>
+          <span id="learningMaterials">12</span>
         </div>
 
         <div class="card">
           <i class='bx bx-library'></i>
           <h4>Total Sub-Categories</h4>
-          <span>37</span>
+          <span id="subCategories">37</span>
         </div>
 
         
@@ -104,21 +104,55 @@
         <div class="quiz">
           <i class="bx bx-certification"></i>
           <h4>Total Quiz</h4>
-          <span>0</span>
+          <span class="totalQuiz">0</span>
         </div>
 
         <div class="quiz">
           <i class='bx bxs-graduation'></i>
           <h4>Total Students</h4>
-          <span>9</span>
+          <span class="totalStudents">9</span>
         </div>
 
         <div class="quiz">
-          <button class="students">Top Three Student</button>
+          <button class="students" id="topThreeStudent">Top Three Student</button>
         </div>
 
       </div>
     </section>
 
+
+    <!-- Page Modal -->
+    <div id="pageModal" class="page-modal">
+      <div class="loader"></div>
+    </div>
+
+
+    <!-- Students Modal -->
+
+    <div id="studentModal" class="student-modal">
+      <div id="studentModalTitle" class="student-modal-title">
+        <span>Top Three Students</span>
+        <i class="bx bx-x" onclick="closeStudentModal()"></i>
+      </div>
+      <div id="topThreeScores"></div>
+    </div>
+
+    <!-- All Students Table -->
+
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Position</th>
+            <th>Total Score</th>
+          </tr>
+        </thead>
+        <tbody id="allStudents"></tbody>
+      </table>
+    </div>
+    <script src="./dashboard.js"></script>
   </body>
 </html>

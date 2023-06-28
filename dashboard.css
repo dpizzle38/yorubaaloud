@@ -27,7 +27,7 @@ body{
     transition: 0.5s;
 }
 
-navigation ul{
+.navigation ul{
     position: absolute;
     top: 0;
     left: 0;
@@ -118,7 +118,7 @@ navigation ul{
     border: none;
     outline: none;
     object-fit: contain;
-   
+    cursor : pointer;
 }
 
 .cardbox{
