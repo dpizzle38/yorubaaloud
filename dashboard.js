@@ -9,7 +9,7 @@ function fetchDashBoardData(){
 
     const tokenAcquired = JSON.parse(getAuthToken);
 
-    const token =  tokenAcquired.token;
+    const token =  token.token;
 
     const headers = new Headers();
 
@@ -128,13 +128,11 @@ topThreeStudentBtn.addEventListener("click", (event) =>{
 
                     
                 </div>
-            
-            
             `)
 
         });
      
-    getBestStudents.innerHTML = resultData.join("");
+    getBestStudents.innerHTML = resultData;
     
     studentModal.classList.add("show");
 
